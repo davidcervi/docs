@@ -32,20 +32,48 @@
     {
       "group": "Get Started",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "introduction"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Lesson Templates",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "templates/lesson-template-intro",
+        "templates/create-new-template",
+        "templates/view-templates"
+      ]
+    },
+    {
+      "group": "Schedule",
+      "pages": [
+        "schedule/add-availability",
+        "schedule/connect-calendar",
+        "schedule/viewing-events"
+      ]
+    },
+    {
+      "group": "≈ Lessons",
+      "pages": [
+        "lessons/viewing-lessons",
+        "lessons/joining-lesson",
+        "lessons/classroom",
+        "lessons/leaving-feedback"
+      ]
+    },
+    {
+      "group": "Profile",
+      "pages": [
+        "profile/profile-page",
+        "profile/editing-profile",
+        "profile/inviting-students"
+      ]
+    },
+    {
+      "group": "Payments",
+      "pages": [
+        "payments/intro", //talk about the two different policies when creating templates.
+        "payments/connect-bank-account",
+        "payments/payouts"
       ]
     }
   ],
