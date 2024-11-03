@@ -71,7 +71,7 @@
     {
       "group": "Payments",
       "pages": [
-        "payments/intro", //talk about the two different policies when creating templates.
+        "payments/intro",
         "payments/connect-bank-account",
         "payments/payouts"
       ]
