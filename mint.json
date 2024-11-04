@@ -75,6 +75,13 @@
         "payments/connect-bank-account",
         "payments/payouts"
       ]
+    },
+    {
+      "group": "FAQ",
+      "pages": [
+        "payments/zoom-account",
+        "payments/solving-zoom-issues"
+      ]
     }
   ],
   "footerSocials": {
