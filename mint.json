@@ -52,15 +52,6 @@
       ]
     },
     {
-      "group": "≈ Lessons",
-      "pages": [
-        "lessons/viewing-lessons",
-        "lessons/joining-lesson",
-        "lessons/classroom",
-        "lessons/leaving-feedback"
-      ]
-    },
-    {
       "group": "Profile",
       "pages": [
         "profile/profile-page",
@@ -69,9 +60,18 @@
       ]
     },
     {
+      "group": "Managing Lessons",
+      "pages": [
+        "lessons/viewing-lessons",
+        "lessons/joining-lesson",
+        "lessons/classroom",
+        "lessons/leaving-feedback"
+      ]
+    },
+    {
       "group": "Payments",
       "pages": [
-        "payments/intro",
+        "payments/payments-intro",
         "payments/connect-bank-account",
         "payments/payouts"
       ]
