@@ -79,8 +79,8 @@
     {
       "group": "FAQ",
       "pages": [
-        "payments/zoom-account",
-        "payments/solving-zoom-issues"
+        "faq/zoom-account",
+        "faq/solving-zoom-issues"
       ]
     }
   ],
