@@ -1,88 +1,27 @@
 ---
 title: 'View Templates'
-description: 'Text, title, and styling in standard markdown'
+description: 'Learn how to view and edit templates'
 icon: 'text-size'
 ---
 
-## Titles
+### View Your Templates
 
-Best used for section headers.
+To view your lesson templates, go to the [Templates](https://platform.tutoros.app/lesson-templates) section in the app:
 
-```md
-## Titles
-```
+![Lesson Templates](/images/lesson-templates.png)
 
-### Subtitles
+To launch the action menu for a template, click the gear icon beside in the top right of the template box, where you will see the options to edit, archive or delete a template:
 
-Best use to subsection headers.
+![Lesson Template Actions](/images/lesson-template-action.png)
 
-```md
-### Subtitles
-```
+### Edit Template
 
-<Tip>
+To edit a template, click on the `Edit template` link, where you will be brough to the Edit Template screen. You can edit all parameters for a template apart from its currency.
 
-Each **title** and **subtitle** creates an anchor and also shows up on the table of contents on the right.
+### Archive Template
 
-</Tip>
+To archive a template, click on the `Archive template` link. Archiving a template will hide it from your profile page, so students will no longer be able to book lessons for this template.
 
-## Text Formatting
+### Delete Template
 
-We support most markdown formatting. Simply add `**`, `_`, or `~` around text to format it.
-
-| Style         | How to write it   | Result          |
-| ------------- | ----------------- | --------------- |
-| Bold          | `**bold**`        | **bold**        |
-| Italic        | `_italic_`        | _italic_        |
-| Strikethrough | `~strikethrough~` | ~strikethrough~ |
-
-You can combine these. For example, write `**_bold and italic_**` to get **_bold and italic_** text.
-
-You need to use HTML to write superscript and subscript text. That is, add `<sup>` or `<sub>` around your text.
-
-| Text Size   | How to write it          | Result                 |
-| ----------- | ------------------------ | ---------------------- |
-| Superscript | `<sup>superscript</sup>` | <sup>superscript</sup> |
-| Subscript   | `<sub>subscript</sub>`   | <sub>subscript</sub>   |
-
-## Linking to Pages
-
-You can add a link by wrapping text in `[]()`. You would write `[link to google](https://google.com)` to [link to google](https://google.com).
-
-Links to pages in your docs need to be root-relative. Basically, you should include the entire folder path. For example, `[link to text](/writing-content/text)` links to the page "Text" in our components section.
-
-Relative links like `[link to text](../text)` will open slower because we cannot optimize them as easily.
-
-## Blockquotes
-
-### Singleline
-
-To create a blockquote, add a `>` in front of a paragraph.
-
-> Dorothy followed her through many of the beautiful rooms in her castle.
-
-```md
-> Dorothy followed her through many of the beautiful rooms in her castle.
-```
-
-### Multiline
-
-> Dorothy followed her through many of the beautiful rooms in her castle.
->
-> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
-
-```md
-> Dorothy followed her through many of the beautiful rooms in her castle.
->
-> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
-```
-
-### LaTeX
-
-Mintlify supports [LaTeX](https://www.latex-project.org) through the Latex component.
-
-<Latex>8 x (vk x H1 - H2) = (0,1)</Latex>
-
-```md
-<Latex>8 x (vk x H1 - H2) = (0,1)</Latex>
-```
+To delete a template, click on the `Delete template` link. **Note** that templates with previously booked lessons can only be archived but not deleted.
