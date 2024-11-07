@@ -40,7 +40,7 @@
       "pages": [
         "templates/lesson-template-intro",
         "templates/create-new-template",
-        "templates/view-templates"
+        "templates/manage-templates"
       ]
     },
     {
