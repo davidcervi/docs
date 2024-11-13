@@ -46,7 +46,7 @@
     {
       "group": "Schedule",
       "pages": [
-        "schedule/add-availability",
+        "schedule/manage-availability",
         "schedule/viewing-events",
         "schedule/connect-calendar"
       ]
