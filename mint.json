@@ -55,8 +55,7 @@
       "group": "Profile",
       "pages": [
         "profile/profile-page",
-        "profile/editing-profile",
-        "profile/inviting-students"
+        "profile/editing-profile"
       ]
     },
     {
