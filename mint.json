@@ -2,8 +2,8 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "User Guide",
   "logo": {
-    "dark": "/logo/TutorOS_PNG.png",
-    "light": "/logo/TutorOS_PNG.png"
+    "dark": "/logo/TutorOS.svg",
+    "light": "/logo/TutorOS.svg"
   },
   "favicon": "/tutoros.png",
   "colors": {
