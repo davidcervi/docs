@@ -5,7 +5,7 @@
     "dark": "/logo/TutorOS_PNG.png",
     "light": "/logo/TutorOS_PNG.png"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/tutoros.png",
   "colors": {
     "primary": "#777FD7",
     "light": "#777FD7",
