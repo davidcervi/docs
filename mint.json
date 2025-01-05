@@ -64,6 +64,7 @@
         "lessons/viewing-lessons",
         "lessons/joining-lesson",
         "lessons/classroom",
+        "lessons/post-lesson-classroom",
         "lessons/leaving-feedback"
       ]
     },
