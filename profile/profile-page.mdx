@@ -38,7 +38,8 @@ If you feel that displaying your profile info (image, name and bio) on your page
 
 The `hideProfile` query parameter must be added to the `src` attribute in your embed code. So, for example, if your `Link URL` is `https://platform.tutoros.app/amyjones`, then your embed code should be changed to:
 
-```markup
+<pre>
+```html
 <iframe
   src="https://platform.tutoros.app/amyjones?hideProfile=true"
   width="100%"
@@ -49,38 +50,7 @@ The `hideProfile` query parameter must be added to the `src` attribute in your e
   loading="lazy">
 </iframe>
 ```
-
-```javascript
-addEventListener("fetch", (event) => {
-  event.respondWith(handleRequest(event.request));
-});
-
-async function handleRequest(request) {
-  try {
-    const urlObject = new URL(request.url);
-    // If the request is to the docs subdirectory
-    if (/^\/docs/.test(urlObject.pathname)) {
-      // Then Proxy to Mintlify
-      const DOCS_URL = "[SUBDOMAIN].mintlify.dev";
-      const CUSTOM_URL = "[YOUR_DOMAIN]";
-
-      let url = new URL(request.url);
-      url.hostname = DOCS_URL;
-
-      let proxyRequest = new Request(url, request);
-
-      proxyRequest.headers.set("Host", DOCS_URL);
-      proxyRequest.headers.set("X-Forwarded-Host", CUSTOM_URL);
-      proxyRequest.headers.set("X-Forwarded-Proto", "https");
-
-      return await fetch(proxyRequest);
-    }
-  } catch (error) {
-    // if no action found, play the regular request
-    return await fetch(request);
-  }
-}
-```
+</pre>
 
 Below are instructions on how to embed your code in some of the most common website platforms:
 
