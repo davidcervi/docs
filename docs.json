@@ -1,0 +1,101 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "User Guide",
+  "colors": {
+    "primary": "#777FD7",
+    "light": "#777FD7",
+    "dark": "#777FD7"
+  },
+  "appearance": {
+    "default": "system"
+  },
+  "favicon": "/tutoros.png",
+  "navigation": {
+    "groups": [
+      {
+        "group": "Get Started",
+        "pages": [
+          "introduction"
+        ]
+      },
+      {
+        "group": "Lesson Templates",
+        "pages": [
+          "templates/lesson-template-intro",
+          "templates/create-new-template",
+          "templates/manage-templates"
+        ]
+      },
+      {
+        "group": "Schedule",
+        "pages": [
+          "schedule/manage-availability",
+          "schedule/viewing-events",
+          "schedule/connect-calendar"
+        ]
+      },
+      {
+        "group": "Profile",
+        "pages": [
+          "profile/profile-page",
+          "profile/editing-profile"
+        ]
+      },
+      {
+        "group": "Managing Lessons",
+        "pages": [
+          "lessons/viewing-lessons",
+          "lessons/joining-lesson",
+          "lessons/classroom",
+          "lessons/post-lesson-classroom",
+          "lessons/leaving-feedback",
+          "lessons/cancelling-lessons"
+        ]
+      },
+      {
+        "group": "Payments",
+        "pages": [
+          "payments/payments-intro",
+          "payments/connect-bank-account",
+          "payments/payouts"
+        ]
+      },
+      {
+        "group": "FAQ",
+        "pages": [
+          "faq/zoom-account",
+          "faq/solving-zoom-issues",
+          "faq/general-questions"
+        ]
+      }
+    ]
+  },
+  "styling": {
+    "codeblocks": "system"
+  },
+  "logo": {
+    "light": "/logo/TutorOS-22-1-SVG-01.svg",
+    "dark": "/logo/TutorOS-22-1-SVG-01.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:hello@tutoros.app"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://platform.tutoros.app"
+    }
+  },
+  "footer": {
+    "socials": {
+      "website": "https://tutoros.app",
+      "x": "https://x.com/tutor_os",
+      "linkedin": "https://linkedin.com/company/tutoros"
+    }
+  }
+}
