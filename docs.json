@@ -28,6 +28,14 @@
         ]
       },
       {
+        "group": "Lesson Packages",
+        "pages": [
+          "packages/lesson-packages-intro",
+          "packages/create-new-package",
+          "packages/manage-packages"
+        ]
+      },
+      {
         "group": "Schedule",
         "pages": [
           "schedule/manage-availability",
