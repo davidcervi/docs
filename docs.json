@@ -30,7 +30,7 @@
       {
         "group": "Lesson Packages",
         "pages": [
-          "packages/lesson-packages-intro",
+          "packages/lesson-package-intro",
           "packages/create-new-package",
           "packages/manage-packages"
         ]
