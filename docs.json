@@ -72,9 +72,9 @@
       {
         "group": "FAQ",
         "pages": [
+          "faq/general-questions",
           "faq/zoom-account",
-          "faq/solving-zoom-issues",
-          "faq/general-questions"
+          "faq/solving-zoom-issues"
         ]
       }
     ]
